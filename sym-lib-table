@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name skiselev_libraries)(type Legacy)(uri ${KIPRJMOD}/libraries/skiselev_kicad_library/library/my_components.lib)(options "")(descr ""))
+)
