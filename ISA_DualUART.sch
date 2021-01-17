@@ -611,4 +611,230 @@ F 3 "" H 10050 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10050 4800 10050 4900
+Wire Wire Line
+	6100 3000 6000 3000
+Wire Wire Line
+	6000 3000 6000 2950
+Wire Wire Line
+	6000 2900 6100 2900
+Wire Wire Line
+	6000 2950 5500 2950
+Wire Wire Line
+	5500 2950 5500 2850
+Connection ~ 6000 2950
+Wire Wire Line
+	6000 2950 6000 2900
+$Comp
+L power:VCC #PWR?
+U 1 1 6019347C
+P 5500 2850
+F 0 "#PWR?" H 5500 2700 50  0001 C CNN
+F 1 "VCC" H 5515 3023 50  0000 C CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3100 5600 3100
+Text Label 5600 3100 0    50   ~ 0
+~UART1_CS
+Wire Wire Line
+	6100 7800 6000 7800
+Wire Wire Line
+	6000 7800 6000 7750
+Wire Wire Line
+	6000 7700 6100 7700
+Wire Wire Line
+	6000 7750 5500 7750
+Wire Wire Line
+	5500 7750 5500 7650
+Connection ~ 6000 7750
+Wire Wire Line
+	6000 7750 6000 7700
+$Comp
+L power:VCC #PWR?
+U 1 1 6019BCF3
+P 5500 7650
+F 0 "#PWR?" H 5500 7500 50  0001 C CNN
+F 1 "VCC" H 5515 7823 50  0000 C CNN
+F 2 "" H 5500 7650 50  0001 C CNN
+F 3 "" H 5500 7650 50  0001 C CNN
+	1    5500 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 7900 5600 7900
+Text Label 5600 7900 0    50   ~ 0
+~UART2_CS
+Wire Wire Line
+	6100 6500 5650 6500
+Wire Wire Line
+	6100 6600 5650 6600
+Wire Wire Line
+	6100 6700 5650 6700
+Wire Wire Line
+	6100 6800 5650 6800
+Wire Wire Line
+	6100 6900 5650 6900
+Wire Wire Line
+	6100 7000 5650 7000
+Wire Wire Line
+	6100 7100 5650 7100
+Wire Wire Line
+	6100 7200 5650 7200
+Text Label 5650 6500 0    50   ~ 0
+D0
+Text Label 5650 6600 0    50   ~ 0
+D1
+Text Label 5650 6700 0    50   ~ 0
+D2
+Text Label 5650 6800 0    50   ~ 0
+D3
+Text Label 5650 6900 0    50   ~ 0
+D4
+Text Label 5650 7000 0    50   ~ 0
+D5
+Text Label 5650 7100 0    50   ~ 0
+D6
+Text Label 5650 7200 0    50   ~ 0
+D7
+Wire Wire Line
+	6100 7400 5650 7400
+Wire Wire Line
+	6100 7500 5650 7500
+Wire Wire Line
+	6100 7600 5650 7600
+Text Label 5650 7400 0    50   ~ 0
+A0
+Text Label 5650 7500 0    50   ~ 0
+A1
+Text Label 5650 7600 0    50   ~ 0
+A2
+Wire Wire Line
+	6100 1700 5650 1700
+Wire Wire Line
+	6100 1800 5650 1800
+Wire Wire Line
+	6100 1900 5650 1900
+Wire Wire Line
+	6100 2000 5650 2000
+Wire Wire Line
+	6100 2100 5650 2100
+Wire Wire Line
+	6100 2200 5650 2200
+Wire Wire Line
+	6100 2300 5650 2300
+Wire Wire Line
+	6100 2400 5650 2400
+Text Label 5650 1700 0    50   ~ 0
+D0
+Text Label 5650 1800 0    50   ~ 0
+D1
+Text Label 5650 1900 0    50   ~ 0
+D2
+Text Label 5650 2000 0    50   ~ 0
+D3
+Text Label 5650 2100 0    50   ~ 0
+D4
+Text Label 5650 2200 0    50   ~ 0
+D5
+Text Label 5650 2300 0    50   ~ 0
+D6
+Text Label 5650 2400 0    50   ~ 0
+D7
+Wire Wire Line
+	6100 2600 5650 2600
+Wire Wire Line
+	6100 2700 5650 2700
+Wire Wire Line
+	6100 2800 5650 2800
+Text Label 5650 2600 0    50   ~ 0
+A0
+Text Label 5650 2700 0    50   ~ 0
+A1
+Text Label 5650 2800 0    50   ~ 0
+A2
+Text Label 5600 4500 0    50   ~ 0
+RESETDRV
+Text Label 5600 4400 0    50   ~ 0
+UART1_IRQ
+Wire Wire Line
+	5600 4400 6100 4400
+Wire Wire Line
+	5600 4500 6100 4500
+Wire Wire Line
+	6100 4200 5600 4200
+Text Label 5600 4200 0    50   ~ 0
+~IOR
+Wire Wire Line
+	6100 3900 5600 3900
+Text Label 5600 3900 0    50   ~ 0
+~IOW
+Wire Wire Line
+	6100 4000 5400 4000
+Wire Wire Line
+	5400 4000 5400 4100
+Wire Wire Line
+	5400 4100 6100 4100
+Wire Wire Line
+	6100 4300 5400 4300
+Wire Wire Line
+	5400 4300 5400 4100
+Connection ~ 5400 4100
+$Comp
+L power:GND #PWR?
+U 1 1 60233DB3
+P 5400 4450
+F 0 "#PWR?" H 5400 4200 50  0001 C CNN
+F 1 "GND" H 5405 4277 50  0000 C CNN
+F 2 "" H 5400 4450 50  0001 C CNN
+F 3 "" H 5400 4450 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4300 5400 4450
+Connection ~ 5400 4300
+Text Label 5600 9300 0    50   ~ 0
+RESETDRV
+Text Label 5600 9200 0    50   ~ 0
+UART2_IRQ
+Wire Wire Line
+	5600 9200 6100 9200
+Wire Wire Line
+	5600 9300 6100 9300
+Wire Wire Line
+	6100 9000 5600 9000
+Text Label 5600 9000 0    50   ~ 0
+~IOR
+Wire Wire Line
+	6100 8700 5600 8700
+Text Label 5600 8700 0    50   ~ 0
+~IOW
+Wire Wire Line
+	6100 8800 5400 8800
+Wire Wire Line
+	5400 8800 5400 8900
+Wire Wire Line
+	5400 8900 6100 8900
+Wire Wire Line
+	6100 9100 5400 9100
+Wire Wire Line
+	5400 9100 5400 8900
+Connection ~ 5400 8900
+$Comp
+L power:GND #PWR?
+U 1 1 6023ADAB
+P 5400 9250
+F 0 "#PWR?" H 5400 9000 50  0001 C CNN
+F 1 "GND" H 5405 9077 50  0000 C CNN
+F 2 "" H 5400 9250 50  0001 C CNN
+F 3 "" H 5400 9250 50  0001 C CNN
+	1    5400 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 9100 5400 9250
+Connection ~ 5400 9100
 $EndSCHEMATC
