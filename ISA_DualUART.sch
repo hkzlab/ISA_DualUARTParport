@@ -5149,7 +5149,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 19100 16650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 18350 17050 0    50   ~ 0
-PARPORT_RPB
+PARPORT_RPC
 Wire Wire Line
 	18350 17050 19100 17050
 Wire Wire Line
