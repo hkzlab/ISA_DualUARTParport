@@ -3756,7 +3756,7 @@ U 1 1 7146EF36
 P 13500 6400
 F 0 "J10" H 13550 7217 50  0000 C CNN
 F 1 "Parallel Port" H 13550 7126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x13_P2.54mm_Vertical" H 13500 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 13500 6400 50  0001 C CNN
 F 3 "~" H 13500 6400 50  0001 C CNN
 	1    13500 6400
 	1    0    0    -1  
