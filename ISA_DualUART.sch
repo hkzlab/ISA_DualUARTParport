@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A1 33110 23386
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Serial + Parallel Port ISA Adapterr"
 Date ""
 Rev "1.0"
 Comp ""
@@ -4101,14 +4101,10 @@ Wire Bus Line
 	20550 13500 13800 13500
 Connection ~ 13800 13500
 Wire Notes Line
-	5050 15900 22700 15900
-Wire Notes Line
-	22700 15900 22700 5350
-Wire Notes Line
 	5050 5350 22700 5350
 Wire Notes Line
 	5050 5350 5050 15900
-Text Notes 20650 15800 0    197  ~ 0
+Text Notes 20550 14550 0    197  ~ 0
 Parallel Port
 Wire Wire Line
 	3900 11200 4300 11200
@@ -4228,6 +4224,14 @@ Wire Wire Line
 Connection ~ 1350 14400
 Wire Wire Line
 	1350 14400 1800 14400
+Wire Notes Line
+	5050 15900 18550 15900
+Wire Notes Line
+	18550 15900 18550 14700
+Wire Notes Line
+	18550 14700 22700 14700
+Wire Notes Line
+	22700 14700 22700 5350
 Wire Bus Line
 	13800 7800 13800 13500
 Wire Bus Line
