@@ -4,9 +4,9 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "Serial + Parallel Port ISA Adapterr"
+Title "Serial + Parallel Port ISA Adapter"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
