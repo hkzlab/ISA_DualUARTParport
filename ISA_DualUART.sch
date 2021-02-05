@@ -1375,17 +1375,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 9250 2300 9250
 $Comp
-L Connector:DB9_Male J7
-U 1 1 60F46B7A
-P 20700 3850
-F 0 "J7" H 20880 3896 50  0000 L CNN
-F 1 "Serial 1 DB9" H 20880 3805 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 20700 3850 50  0001 C CNN
-F 3 " ~" H 20700 3850 50  0001 C CNN
-	1    20700 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0134
 U 1 1 60F4A63B
 P 20200 3200
@@ -4232,6 +4221,30 @@ Wire Notes Line
 	18550 14700 22700 14700
 Wire Notes Line
 	22700 14700 22700 5350
+$Comp
+L Connector:DB9_Male_MountingHoles J7
+U 1 1 603C93D6
+P 20700 3850
+F 0 "J7" H 20880 3852 50  0000 L CNN
+F 1 "Serial 1 DB9" H 20880 3761 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 20700 3850 50  0001 C CNN
+F 3 " ~" H 20700 3850 50  0001 C CNN
+	1    20700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60471E81
+P 20700 4600
+F 0 "#PWR?" H 20700 4350 50  0001 C CNN
+F 1 "GND" H 20705 4427 50  0000 C CNN
+F 2 "" H 20700 4600 50  0001 C CNN
+F 3 "" H 20700 4600 50  0001 C CNN
+	1    20700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20700 4450 20700 4600
 Wire Bus Line
 	13800 7800 13800 13500
 Wire Bus Line
