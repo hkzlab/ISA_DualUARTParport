@@ -3226,7 +3226,7 @@ $EndComp
 Wire Wire Line
 	14750 8000 15000 8000
 Wire Wire Line
-	15000 8200 14250 8200
+	15000 8200 14750 8200
 Text Label 14250 8200 0    50   ~ 0
 ~PARPORT_ACK
 Text Label 16250 8100 2    50   ~ 0
@@ -3248,12 +3248,6 @@ Wire Wire Line
 	15300 9150 14550 9150
 Text Label 14550 9150 0    50   ~ 0
 ~PARPORT_IRQEN
-Wire Wire Line
-	16350 8100 16350 8350
-Wire Wire Line
-	16350 8350 14750 8350
-Wire Wire Line
-	14750 8350 14750 8750
 Wire Wire Line
 	14750 8750 15000 8750
 Wire Wire Line
@@ -3357,9 +3351,6 @@ F 3 "" H 19300 8100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18800 8700 16350 8700
-Wire Wire Line
-	16350 8700 16350 8350
-Connection ~ 16350 8350
 Text Label 18050 9200 0    50   ~ 0
 ~PARPORT_STROBE
 Wire Wire Line
@@ -4247,10 +4238,44 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 12250 8200 50  0001 C CNN
 	1    12250 8200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 63A381BF
+P 14450 8750
+F 0 "R16" V 14550 8850 50  0000 C CNN
+F 1 "4.7k" V 14550 8650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 14450 8750 50  0001 C CNN
+F 3 "~" H 14450 8750 50  0001 C CNN
+	1    14450 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14250 8750 14350 8750
+$Comp
+L power:VCC #PWR?
+U 1 1 63A3972E
+P 14250 8750
+F 0 "#PWR?" H 14250 8600 50  0001 C CNN
+F 1 "VCC" H 14265 8923 50  0000 C CNN
+F 2 "" H 14250 8750 50  0001 C CNN
+F 3 "" H 14250 8750 50  0001 C CNN
+	1    14250 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16350 8100 16350 8700
+Wire Wire Line
+	14750 8750 14750 8200
+Connection ~ 14750 8200
+Wire Wire Line
+	14750 8200 14250 8200
+Wire Wire Line
+	14550 8750 14750 8750
 Wire Bus Line
 	13800 7800 13800 13500
 Wire Bus Line
 	20550 8600 20550 13500
 Wire Bus Line
 	7650 9100 7650 13500
+Connection ~ 14750 8750
 $EndSCHEMATC
