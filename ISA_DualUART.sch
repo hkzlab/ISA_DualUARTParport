@@ -2086,7 +2086,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 6450 6650 6450
 Text Notes 5350 7150 0    50   ~ 0
-Closed - 0x278/9/A\nOpen    - 0x378/9/A
+Open - 0x278/9/A\nClosed - 0x378/9/A
 $Comp
 L 74xx:74LS02 U13
 U 2 1 621AB2AD
