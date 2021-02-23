@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Serial + Parallel Port ISA Adapter"
 Date ""
-Rev "1.2"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
