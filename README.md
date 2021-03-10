@@ -61,6 +61,7 @@ All ICs are in DIP package.
 - 1x 10x LED bar, DIP20 (**optional**, socket this!)
 - 8x 2.2nF / 25V ceramic capacitors, 5mm pitch
 - 18x 100nF / 50v ceramic capacitors, 5mm pitch
+- 4x 10uF / 50v electrolytic caps
 - 2x 16C550 UARTs (16C450/16C650/16C750 should work, but are untested) in DIP40 format
 - 2x 74HCT/LS138
 - 2x 75C185
