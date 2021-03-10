@@ -14,7 +14,7 @@ Both serial ports and the parallel port addressing/IRQs are configurable.
 ### Disclaimer
 
 I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
-Also, as this card is mostly based on the work of others, You're encourauged to take what you seem fit from this, and use it in your projects!
+Also, as this card is mostly based on the work of others, You're encourauged to take what you deem fit from this, and use it in your projects!
 
 ## Configuration
 
