@@ -11,6 +11,11 @@ Both serial ports and the parallel port addressing/IRQs are configurable.
 
 ![Rev. 1.3 PCB](pics/ISA_DualUART.png)
 
+### Disclaimer
+
+I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
+Also, as this card is mostly based on the work of others, You're encourauged to take what you seem fit from this, and use it in your projects!
+
 ## Configuration
 
 ### Parallel port
@@ -84,3 +89,8 @@ All ICs are in DIP package.
 I **strongly advise AGAINST** soldering the LED bar for the parallel port: **socket it!** It is useful for debugging or to get some blinkenlights, but it loads the data pins, and some devices connected to the port might not like it. Socketing it will allow for a quick removal in case it becomes necessary.
 
 RN2 depends on how bright you wish the LED bar to be, and how much load you want to put on the parallel port data pins. I usually fit an 1.5k resistor array.
+
+## Credits
+
+Thanks to [Sergey](http://www.malinov.com/Home/sergeys-projects) for all his projects!
+
