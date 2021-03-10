@@ -42,7 +42,7 @@ The same principle applies for the IO address, selected by the last 4 rows of th
 
 #### Example
 
-To select IO @3F8 and IRQ4 for port 1, connect a jumper on 2nd row, first two columns, and another jumper on 8th row, column 1-2
+To select IO at 0x3F8 and IRQ4 for port 1, connect a jumper on 2nd row, first two columns, and another jumper on 8th row, column 1-2
 
 ## Bill of Materials
 
