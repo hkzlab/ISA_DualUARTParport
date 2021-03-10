@@ -46,7 +46,38 @@ To select IO @3F8 and IRQ4 for port 1, connect a jumper on 2nd row, first two co
 
 ## Bill of Materials
 
-- TODO
+All ICs are in DIP package.
+
+- 4x 1k 1/4W resistors (**optional**)
+- 4x 3mm LEDs (2x for UART RX indicators, 2x for TX) (**optional**)
+- 1x 1.8432Mhz oscillator. DIP14 or DIP8
+- 1x 8x4.7k bussed resistor array (9 pin)
+- 1x 10x1.5k bussed resistor array (11 pin) (**optional**)
+- 1x 10x LED bar, DIP20 (**optional**, socket this!)
+- 8x 2.2nF / 25V ceramic capacitors, 5mm pitch
+- 18x 100nF / 50v ceramic capacitors, 5mm pitch
+- 2x 16C550 UARTs (16C450/16C650/16C750 should work, but are untested) in DIP40 format
+- 2x 74HCT/LS138
+- 2x 75C185
+- 1x 74LS245
+- 1x 74LS240
+- 1x 74LS374
+- 1x 74LS244
+- 1x 74LS02
+- 1x 74LS155
+- 1x 74LS05
+- 1x 74LS174
+- 1x 74LS30
+- 1x 74LS125
+- 1x 74LS86
+- 1x 2x13 pin header, 2.54mm
+- 1x 2x4 pin header, 2.54mm
+- 1x 2x8 pin header, 2.54mm
+- 1x 1x8 pin header, 2.54mm
+- 1x 1x2 pin header, 2.54mm
+- 1x 1x3 pin header, 2.54mm
+- 1x DB9 male, right angle, PCB mount (http://www.mouser.com/search/refine.aspx?Keyword=806-K22X-E9P-NJ15-99)
+- 1x ISA card bracket - Keystone 9200-1 (http://www.mouser.com/ProductDetail/Keystone-Electronics/9200-1/?qs=sGAEpiMZZMsQtlBhqKq43VLJ3wppkop5) 
 
 ## Building notes
 
