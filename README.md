@@ -47,3 +47,9 @@ To select IO @3F8 and IRQ4 for port 1, connect a jumper on 2nd row, first two co
 ## Bill of Materials
 
 - TODO
+
+## Building notes
+
+I **strongly advise AGAINST** soldering the LED bar for the parallel port: **socket it!** It is useful for debugging or to get some blinkenlights, but it loads the data pins, and some devices connected to the port might not like it. Socketing it will allow for a quick removal in case it becomes necessary.
+
+RN2 depends on how bright you wish the LED bar to be, and how much load you want to put on the parallel port data pins. I usually fit an 1.5k resistor array.
