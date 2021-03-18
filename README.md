@@ -53,7 +53,7 @@ To select IO at 0x3F8 and IRQ4 for port 1, connect a jumper on 2nd row, first tw
 
 All ICs are in DIP package.
 
-- 4x 1k 1/4W resistors (**optional**)
+- 4x ~2.2k 1/4W resistors (**optional**, R1-R4). **These resistors will be on the TTL RX/TX lines**. To avoid loading them too much, use high-brightness leds and the highest resistor value you can use that still gives enough brightness!
 - 4x 3mm LEDs (2x for UART RX indicators, 2x for TX) (**optional**)
 - 1x 1.8432Mhz oscillator. DIP14 or DIP8
 - 1x 8x4.7k bussed resistor array (9 pin)
